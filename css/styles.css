@@ -622,6 +622,11 @@ body {
   top: 8px;
   right: 8px;
   cursor: pointer;
+  transition: var(--typical-duration) var(--typical-timing-function);
+}
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--accent-color);
 }
 .is-hidden {
   visibility: hidden;
